@@ -9,32 +9,24 @@ public class Calculator {
       double operand1 = Double.parseDouble(args[1]);
       double operand2 = Double.parseDouble(args[2]);    
       
+      //adds two numbers
       if (Operator.equals ("add")){
         ans = operand1 + operand2;
         System.out.println("The result of your addition is: " + ans);  
         break;
       }
       
+      //subtract two numbers
       else if (Operator.equals ("subtract")){
         ans = operand1 - operand2;
         System.out.println("The result of your subtarction is: " + ans);  
         break;
       }
       
+      //multiply two numbers
       else if (Operator.equals ("multiply")){
         ans = operand1 * operand2;
         System.out.println("The result of your multiplication is: " + ans);  
-        break;
-      }
-      
-      else if (Operator.equals ("divide")){
-        ans = operand1 / operand2;
-        System.out.println("The result of your division is: " + ans);  
-        break;
-      }
-      
-      else{
-        System.out.println ("Error");
         break;
       }
     }
