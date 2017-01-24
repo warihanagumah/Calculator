@@ -29,6 +29,19 @@ public class Calculator {
         System.out.println("The result of your multiplication is: " + ans);  
         break;
       }
+      
+      //Divide two numbers
+      else if (Operator.equals ("divide")){
+        ans = operand1 / operand2;
+        System.out.println("The result of your division is: " + ans);  
+        break;
+      }
+      
+      //displays an error message if incorrect input is entered
+      else{
+        System.out.println ("Error");
+        break;
+      }
     }
   }
 }
